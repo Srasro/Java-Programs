@@ -1,0 +1,14 @@
+import java.util.locale;
+import java.util.ResourceBundle;
+public class TestLocale
+{
+public static void main(String args[])
+{
+Locale L1=new Locale("de","DE");
+ResourceBundle rb1=ResourceBundle.getBundle("Message Bundle",L1);
+system.out.println(rb1.getString ("Message"));
+Locale L2=new Locale("zn", "ZN");
+ResourceBundle rb2=ResourceBundle.getBundle("Message Bundle", L2);
+system.out.println(rb2.getString ("Message"));
+}
+}
