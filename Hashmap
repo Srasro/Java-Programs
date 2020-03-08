@@ -1,0 +1,19 @@
+import java.util.*;
+public class Hashmap
+{
+public static void main(String args[])
+ {
+HashMap<String> hmap = new HashMap<String>();
+hmap.put("Abi");
+hmap.put("Rani");
+hmap.put("Jammu");
+System.out.println("Elements in Hashmap:"+hmap);
+hmap.remove(0);
+System.out.println("Elements in Hashmap after removing :"+hmap);
+Set set = hmap.entrySet();
+Iterator iterator = set.iterator();
+while(iterator.hasNext()) 
+{
+ Sysem.out.println(itr.next());      
+}
+}
